@@ -11,13 +11,56 @@
         </style>
     </head>
     <body>
-        <div class="box">
+        <!--Part 1-->
+        <!-- <div class="feed-box">
             <div class="box-title">
                 <h2>Some User</h2>
                 <p class="like-count"><span id="like_num">0</span> like(s)</p>
                 <button onclick="update_likes('#like_num')">Like</button>
             </div>
             <p>This is some filler text, it can say anything we like</p>
+        </div> -->
+        <!--Part 2-->
+        <header><h1>Network</h1></header>
+        <div class="title"><h1>Your Feed</h1></div>
+        <div class="main-body">
+            <div class="user-card left">
+                <img src="#" alt="icon" class="user-info">
+                <p><a href="" class="user-info">Add an Avatar</a></p>
+                <h2 class="user-info">James Doe</h2>
+            </div>
+            <div class="right">
+                <div class="feed-box">
+                    <div class="box-title">
+                        <h2>Neil M</h2>
+                        <p class="like-count"><span id="like_num1">0</span> like(s)</p>
+                        <button onclick="update_likes('#like_num1')">Like</button>
+                    </div>
+                    <p>
+                        I just set up this new discord bot, let me know what you all think.
+                        <a href="#">link</a>
+                    </p>
+                </div>
+                <div class="feed-box">
+                    <div class="box-title">
+                        <h2>Nichole K</h2>
+                        <p class="like-count"><span id="like_num2">0</span> like(s)</p>
+                        <button onclick="update_likes('#like_num2')">Like</button>
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+                <div class="feed-box">
+                    <div class="box-title">
+                        <h2>Jim R</h2>
+                        <p class="like-count"><span id="like_num3">0</span> like(s)</p>
+                        <button onclick="update_likes('#like_num3')">Like</button>
+                    </div>
+                    <p>
+                        I can't stop listening to the <a href="#">new album</a>.
+                        Who else is liking it?
+                    </p>
+                </div>
+            </div>
         </div>
         <script src="js/script.js"></script>
         <script>
